@@ -1,0 +1,63 @@
+.el-tabs {
+    height: 100vh;
+}
+.el-tabs .el-tabs__header {
+    padding: 0;
+    position: relative;
+    height: 6vh;
+    margin: 0 0 2vh;
+    overflow: hidden;
+}
+.el-tabs .el-tabs__header .el-tabs__item {
+  height: 6vh;
+  line-height: 6vh;
+}
+.el-tabs .el-tabs__content {
+  width: 100vw;
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+.el-tabs .el-tabs__content .el-tab-pane {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+    height: 92vh;
+}
+.el-tabs .el-tabs__content .el-tab-pane .el-form {
+  height: 6vh;
+  padding: 0;
+}
+.el-tabs .el-tabs__content .el-tab-pane .el-table {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.el-table .el-table__row td, .el-table th {
+  padding: 8px 0;
+}
+.el-tabs .el-tabs__content .el-tab-pane .el-pagination {
+    height: 4vh !important;
+    margin-top: 3vh !important;
+    text-align: right !important;
+}
+.el-date-editor {
+    width: 120px !important;
+}
+.el-input--suffix .el-input__inner {
+  padding-right: 0;
+}
+.el-button--mini {
+  padding: 7px;
+}
+.el-drawer__header {
+  margin: 0;
+  padding: 15px 20px;
+}
+/* wangEditor 层级太高 修正 */
+.w-e-toolbar {
+  z-index: 2 !important;
+}
+.w-e-text-container {
+  z-index: 1 !important;
+}
